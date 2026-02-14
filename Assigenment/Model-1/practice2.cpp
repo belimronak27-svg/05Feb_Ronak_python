@@ -1,9 +1,12 @@
 //Calculate the sum
 #include<stdio.h>
 main(){
-	int a=10,b=20;
-	int sum=a+b;
-	printf("A:%d",a);
-	printf("\nB:%d",b);
-	printf("\nA+b=%d",sum);
+	int a,b;
+	int sum=0;
+	printf("A:",a);
+	scanf("%d",&a);
+	printf("\nB:",b);
+	scanf("%d",&b);
+	sum =a+b;
+	printf("%d",sum);
 }
